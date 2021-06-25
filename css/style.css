@@ -258,6 +258,9 @@ section .title::after{
 }
 
 /* services section styling */
+i{
+    display: flex;
+}
 .services, .teams{
     color:#fff;
     background: #111;
@@ -328,11 +331,11 @@ a:active {
   text-decoration: underline;
 }
 
-
+.title{
+    text-align: center;
+}
 /* skills section styling */
-.skills .skills-content .right .info{
-    display: flex;
-    flex-direction: row;
+.skills .skills-content .info{
     margin-bottom: 5px;
     justify-content: space-between; 
 }
