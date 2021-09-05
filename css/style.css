@@ -657,12 +657,15 @@ footer span a:hover{
     .title{
         text-align: center;
     }
+    .services .serv-content .card{
+        width: 100vh;
+    }
 }
 
 @media (max-width: 375px) {
     .about .about-content .left img{
         height: 100vh;
-        width: 100vw
+        width: 150vw
     }
 }
 
